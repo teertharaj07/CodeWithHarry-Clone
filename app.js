@@ -37,3 +37,12 @@ function erase() {
     setTimeout(type, typingDelay + 1100);
   }
 }
+
+ var a=document.querySelector("#nav-part2")
+ var b=document.querySelector("#video-lecture")
+ a.addEventListener("click",function(){
+  alert("This is page Under Construction")
+ })
+ b.addEventListener("click",function(){
+  alert("Courses will be coming soon...")
+ })
